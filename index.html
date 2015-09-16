@@ -8,7 +8,7 @@
   <meta name="description" content="欢迎大家提意见">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Martin's Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://martin-ding.github.io/index.html">
 <meta property="og:site_name" content="Martin's Blog">
 <meta property="og:description" content="欢迎大家提意见">
 <meta name="twitter:card" content="summary">
@@ -57,7 +57,7 @@
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://martin-ding.github.io"></form>
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@
 <p>将远程仓库在本地添加一个引用：origin<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> remote add origin https://github.com/username/projectName.git</span><br></pre></td></tr></table></figure></p>
 <p>向origin推送gh-pages分支，该命令将会将本地分支gh-pages推送到github的远程仓库，并在远程仓库创建一个同名的分支。该命令后会提示输入用户名和密码。<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> <span class="keyword">push</span> origin gh-pages <span class="comment">#如果你的项目时间建在master 就是master 而不是 gh-pages</span></span><br></pre></td></tr></table></figure></p>
 <p>点击相应的代码库 点击setting 就可以看到<br><img src="https://cloud.githubusercontent.com/assets/13830744/9854118/bb25e298-5b39-11e5-9b39-37be0d1b814e.png" alt="image"><br>据网友反应，如果是初次安装git的话，在commit的时候会提示需要配置username和email，请读者注意根据提示配置一下，至于username和email可以随便填</p>
-<p>上传上去之后就可以通过你的地址访问了 我的是<a href="http://martin-ding.github.io" target="_blank" rel="external">http://martin-ding.github.io</a> 你现在看到的内容应该是hello world！</p>
+<p>上传上去之后就可以通过你的地址访问了 我的是<a href="http://martin-ding.github.io">http://martin-ding.github.io</a> 你现在看到的内容应该是hello world！</p>
 <p>5）下面开始使用hexo 发布blog<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> init  <span class="comment">#初始化hexo</span></span><br><span class="line"><span class="variable">$npm</span> install <span class="comment">#Generate and run the server</span></span><br><span class="line"><span class="variable">$hexo</span> g <span class="comment">#=hexo generate</span></span><br><span class="line"><span class="variable">$hexo</span> s <span class="comment">#=hexo server 这个时候它会显示可以在0.0.0.0:4000 这个网址查看 你在浏览器上面输入http://localhost:4000 可以预览</span></span><br><span class="line"><span class="variable">$control</span>+c 结束进程 结束server 现在可以发布到github 上面了</span><br><span class="line"><span class="variable">$hexo</span> deploy <span class="comment">#发布 但是在发布之前还要做一些配置</span></span><br></pre></td></tr></table></figure></p>
 <p>刚才那张图片里面有一个_config.yml 文件在该文件的最后有一个 delploy 选项<br>按照我的配置配置<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repo</span>: <span class="attribute">https</span>:<span class="comment">//github.com/martin-ding/martin-ding.github.io.git</span></span><br><span class="line">  <span class="attribute">banch</span>: master #这个还要按照具体的情况 刚才我们建的是在 gh-pages 你如果代码是建在master下面的就是master</span><br></pre></td></tr></table></figure></p>
 <p>可能你们会疑惑怎么得到repo参数值<br><img src="https://cloud.githubusercontent.com/assets/13830744/9854201/1bdfb474-5b3a-11e5-83b5-a21835d54c01.png" alt="image"><br>或者输入命令</p>
@@ -176,7 +176,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/09/14/how-to-build-hexo/" data-id="ciemk3unx0000r3zh79g7kzdr" class="article-share-link">Share</a>
+      <a data-url="http://martin-ding.github.io/2015/09/14/how-to-build-hexo/" data-id="ciemks42l0000sfzhim8q020u" class="article-share-link">Share</a>
       
       
     </footer>
